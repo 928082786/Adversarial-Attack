@@ -41,5 +41,18 @@ _**How to design?  I find that authers choose outputs of hidden layers and outpu
 _**However, I can't find the structure of detection model, whereas, we guess that authers could divide two models that the inputs of one are feeded with hidden layers outputs and the others are softmax outputs. Finally, Combine two models**_
 {% endhint %}
 
-_\*\*\*\*_
+_**4. Finally, Combined Dataset**_
+
+## Discuss
+
+> Our detection technique is vulnerable when presented with heavily imbalanced data given that our method requires erroneous detection models to be built for individual models, from activation data from those models, dataset imbalance is trivial to address in the data collection process. 
+>
+> We limit our erroneous detection models to linear SVMs, which are incapable of more complicated classifications. Predictably, these models fail when testing for multiple erroneous inputs
+
+## Reference
+
+1. Gilmer, J., Metz, L., Faghri, F., Schoenholz, S. S., Raghu, M., Wattenberg, M., and Goodfellow, I. Adversarial spheres. arXiv:1801.02774 \[cs\], 2018.
+2. Hendrycks, D. and Dietterich, T. Benchmarking neural network robustness to common corruptions and perturbations. arXiv:1903.12261 \[cs, stat\], 2019.
+
+
 
