@@ -32,5 +32,13 @@ _**Theorem 5.1**_  Consider any model trained on the sphere dataset. Let $$p\in[
 
 To illustrate the result of theorem5.1, there is a figure to visualize that the dimension of the inner sphere increases. Through the figure, we can get the relationship between $$d(E)$$ and $$n$$ when fixing the $$\mu(E) = 0.01$$ .
 
+![](.gitbook/assets/sphere2%20%281%29.png)
 
+Next, the next figure shows the upper bound in theorem5.1 exists, we can conclude that the decision boundaries of these networks are all well behaved given the amount of test error observed. Also, this can prove that the similarity of difference among models.
+
+![](.gitbook/assets/sphere3.png)
+
+## Reference
+
+Personally speaking ,i think it is a innovative and counterintuitive. Maybe i could regard it as a pioneering work
 
