@@ -38,7 +38,7 @@ _**How to design?  I find that authers choose outputs of hidden layers and outpu
 {% endhint %}
 
 {% hint style="danger" %}
-_**However, I can't find the structure of detection model, whereas, we guess that authers could divide two models that the inputs of one are feeded with hidden layers outputs and the others are softmax outputs. Finally, Combine two models**_
+_**However, I can't find the structure of detection model, whereas, I guess that authers could divide two models that the inputs of one are feeded with hidden layers outputs and the others are softmax outputs. Finally, Combine two models**_
 {% endhint %}
 
 _**4. Finally, Combined Dataset**_

@@ -24,5 +24,13 @@ _**An image to explain manifold distribution**_
 
 ![](.gitbook/assets/sphere.png)
 
-At section 4.1
+**At section 4.1, there is a function estimating of the error rate.**                            $$P_{\hat{x}\sim{S_{0}}}(\sum{\alpha_{i}x_{i}^2}>1)\approx1-\Phi(\frac{\mu}{\sigma})$$ ,where $$\mu=\sum{\alpha_{i}}-1$$,and $$\sigma=\sum(\alpha_{i}-1)^2$$ .                                        **the more importantly, a essential theorem is proved at section 5.**
+
+{% hint style="success" %}
+_**Theorem 5.1**_  Consider any model trained on the sphere dataset. Let $$p\in[0.5,1.0]$$ denote the accuracy of the model on the inner sphere, and let E denote the points on the inner sphere the model misclassifies \(so in measure $$\mu(E)=1-p $$ \). Then $$d(E)\le O(\Phi^{-1}(p)/\sqrt{n})$$ where $$\Phi^{-1}(x)$$ is the inverse normal cdf function.
+{% endhint %}
+
+To illustrate the result of theorem5.1, there is a figure to visualize that the dimension of the inner sphere increases. Through the figure, we can get the relationship between $$d(E)$$ and $$n$$ when fixing the $$\mu(E) = 0.01$$ .
+
+
 
