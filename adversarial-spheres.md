@@ -40,5 +40,5 @@ Next, the next figure shows the upper bound in theorem5.1 exists, we can conclud
 
 ## Reference
 
-Personally speaking ,i think it is a innovative and counterintuitive. Maybe i could regard it as a pioneering work
+Personally speaking ,i think it is innovative and counterintuitive. Maybe i could regard it as a pioneering work
 
